@@ -12,3 +12,5 @@ post '/piglatinize' do
   @piglatin = pl.piglatinize(params[:user_phrase])
   erb :results
 end
+
+end
