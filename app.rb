@@ -6,6 +6,6 @@ class App < Sinatra::Base
   end
 
   post '/PigLatinizer' do
-
+pl.new = PigLatinizer.new 
   end
 end
